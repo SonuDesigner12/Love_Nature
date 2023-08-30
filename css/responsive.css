@@ -1,0 +1,140 @@
+@media (min-width:430px) {
+    #menu {
+        display: none;
+    }
+
+
+    .box {
+        width: 30%;
+    }
+    .fitImg img {
+        height: 14.5cm;
+    }
+    /* about */
+    #about #text {
+        width: 40%;
+    }
+    #contact {
+        width: 50%;
+    }
+
+    .project .image {
+        width: 60%;
+    }
+}
+
+@media (min-width:770px) {
+    #service-footer #text {
+        width: 50%;
+    }
+}
+
+
+@media (max-width:430px) {
+    .navLink ul li a {
+        display: none;
+    }
+    #phone {
+        display: none;
+    }
+    #navbar {
+        border-bottom: 2px solid white;
+    }
+    #content h2 {
+        margin-top: 80px;
+    }
+    #service {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .box {
+        width: 100%;
+    
+    }
+    .box .img {
+        padding: 10px;
+
+    }
+    .box p {
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    /* about responsive */
+    #about {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #about img {
+        display: none;
+    }
+    #about #text {
+        width: 100%;
+        padding: 0 20px;
+    }
+    /* footer section */
+
+    #footer .navLink ul li a {
+        display: block;
+
+    }
+    #footer .navLink {
+        flex-direction: column;
+        gap: 40px;
+    }
+    #footer .navLink ul {
+        flex-direction: column;
+    }
+
+    /* about section */
+    #about-us #desc {
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    /* contact responsive section */
+
+    #contact-box {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    /* #footer {
+        margin-top: 90vh;
+    } */
+
+
+    /* services project section */
+
+    .project {
+        flex-direction: column;
+    }
+    .project .image {
+
+    }
+    
+    
+}
+
+@media (max-width:330px) {
+    #phone {
+        display: none;
+    }
+}
+
+/* service section footer */
+
+@media (max-width:770px) {
+    #service-footer {
+        flex-direction: column;
+    }
+    #service-footer #text {
+        width: 100%;
+    }
+    #service-footer #text p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

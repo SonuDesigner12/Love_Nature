@@ -1,0 +1,124 @@
+.btn:hover {
+    color: green;
+    border-color: green;
+}
+
+#home  {
+    height: 50vh;
+    background-image: url("../image/about-header-hero-1.jpg");
+}
+#overlay {
+    height: 50vh;
+}
+
+/* services section kj//*/
+
+#service {
+    width: 100%;
+}
+#service .project {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.project .image {
+    padding: 0 20px;
+} 
+.project .image img {
+    width: 100%;
+}
+.content {
+    padding: 0 20px;
+}
+.content h1 {
+    color: green;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.content p {
+    color: gray;
+    padding-bottom: 30px;
+    line-height: 1.6;
+}
+.content h2 {
+    color: green;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.content .btn {
+    background-color: transparent;
+    border: 2px solid gray;
+}
+
+/* service-footer */
+
+#service-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(232, 230, 230, 0.929);
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#service-footer #text h1 {
+    font-weight: 200;
+    color: chocolate;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+#service-footer #text p {
+    color: gray;
+    padding-bottom: 50px;
+    line-height: 2;
+    font-size: 18px;
+}
+#service-footer .icon {
+    width: 40%;
+    /* border: 3px solid blue; */
+    margin-bottom: 50px;
+}
+#icon_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icon .icon-box {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon h5 {
+    color: gray;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* icon style */
+
+.icon-box i {
+    font-size: 70px;
+    padding: 11px;
+    margin-left: 2px;
+    color: rgba(235, 146, 30, 0.916);
+}
+

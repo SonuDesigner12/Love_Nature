@@ -1,0 +1,317 @@
+  /* universal selector style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection {
+    background-color: rgb(5, 246, 33);
+    color: rgb(7, 7, 7);
+}
+body,html {
+    height: 100%;
+    width: 100%;
+    transition: all ease-in 3s;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover , a.active {
+    color: rgb(115, 244, 115);
+}
+li {
+    list-style: none;
+}
+/* full body style */
+
+#main {
+    width: 100%;
+
+}
+
+/* navbar style */
+
+#home {
+    background-image: url("../image/peter-zagar-QlK0P6VbTxo-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+#overlay {
+    background-color: #0000005c;
+    width: 100%;
+    height: 85vh;
+}
+#navbar {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 25px;
+}
+ .logo img {
+    height: 50px;
+}
+.navLink ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.navLink #phone {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.navLink #phone p {
+    color: white;
+    /* font-size: 1.4vw; */
+    font-weight: 400;
+    background-color: transparent;
+    letter-spacing: -1px;
+
+}
+.navLink #menu {
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+
+#home #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    align-content: stretch;
+    margin-top: 3%;
+    /* width: 40%; */
+    line-height: 1;
+
+}
+#content h2 {
+    font-size: 5vw;
+    text-transform: capitalize;
+}
+#content h1 {
+    font-size: 10vw;
+}
+#content p {
+    /* font-size: 1.4vw; */
+    
+    width: 60vw;
+    text-align: center;
+}
+.btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #30c7b5;
+    /* font-size: 1.2vw; */
+    font-weight: 200;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+.btn:hover {
+    background-color: #399c91;
+
+}
+
+
+/* services setion -*/
+/* .fitImg img {
+    height: 14.5cm;
+} */
+
+#service-text h1::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    height: 2px;
+    width: 20%;
+    background-color: yellow;
+}
+
+#service-text h1 {
+    color: gray;
+    text-align: center;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border-bottom: 2px solid yellow; */
+}
+#service {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+
+}
+#service .box img {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    /* background-color: red; */
+    height: inherit;
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* padding-left: 5px; */
+
+}
+.box .img {
+    height: inherit;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+}
+.box h3 {
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+
+}
+.box p {
+    color: gray;
+    /* text-align: left; */
+    line-height: 1.5;
+    /* width: 25vw; */
+
+}
+
+
+/* testimonial section*/
+
+#comment {
+    width: 100%;
+    background-color: #efeeeee6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: green;
+    padding: 50px;
+    margin-top: 60px;
+}
+#comment p {
+    font-size: 4.5vh;
+    text-align: center;
+    padding: 20px;
+}
+#user {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+#user img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+/* about us **/
+
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+#text h5 {
+    color: gray;
+    font-size: 1.5em;
+}
+#text h2 {
+    margin: 20px 0;
+    color: #007d00b5;
+    font-size: 2.5em;
+    font-weight: 400;
+
+}
+#text p {
+    color: #009c00;
+}
+#text #btn {
+    background-color: transparent;
+    border: 1px solid #42b214;
+}
+
+
+/* ask to question section */
+
+#que {
+    background-image: url("../image/footer-hero-big.jpg");
+    width: 100%;
+    height: 69vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+#que h1 {
+    text-transform: uppercase;
+    color: rgba(210, 105, 30, 0.803);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 56px;
+}
+#que p {
+    color: #007d00b5;
+    text-align: center;
+}
+
+/* footer */
+
+#footer {
+    /* background-color: black; */
+    
+    color: #009c00;
+}
+#footer .navLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* gap: 21px;  */
+    padding: 20px 40px;
+}
+#footer .navLink ul li a {
+    color: #009c00;
+}
+
+
+
+
+/* image effect css */
+
+
+.img_box {
+    overflow: hidden;
+    
+    
+}
+.zoom_img:hover {
+    filter: brightness(1.4);
+}
